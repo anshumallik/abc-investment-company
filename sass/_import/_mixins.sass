@@ -1,0 +1,48 @@
+
+@mixin image-style
+    object-fit: cover
+    width: 100%
+
+@mixin font-family
+    font-family: 'Open Sans'
+@mixin oswald-font
+    font-family: "Oswald"
+@mixin next-prev
+    writing-mode: vertical-lr
+    color: $body-text-color
+@mixin media-large
+    .header-down
+        display: none !important
+    .mobilenav
+        display: block !important
+        &.card
+            border: none
+    .btn_2
+        display: none
+    .logo_img
+        width: 120px
+    .btn_1
+        margin-left: 20px
+        margin-right: 20px
+    .media-padding
+        padding: 30px
+    .text-media
+        text-align: left !important
+    .heading1
+        font-size: 50px
+        line-height: 50px
+    #newsletter
+        .phone
+            font-size: 16px !important
+            a
+                font-size: 16px
+@mixin displayNone
+    display: none !important
+
+@mixin border-radius($border-radius-size...)
+    -webkit-border-radius: $border-radius-size
+    -moz-border-radius: $border-radius-size
+    border-radius: $border-radius-size
+@mixin padding-top
+    .indexpage .carousel-inner
+        padding-top: 0
