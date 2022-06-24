@@ -43,7 +43,7 @@
         z-index: 100
         left: 0
         right: 0
-        background: $sticky-nav-bg
+        background: $background-color
     .navbar
         height: 80px
         background: $nav-bg
@@ -52,7 +52,7 @@
     .navbar-nav
         padding-top: 29px
         text-transform: uppercase
-        font-weight: 600
+        font-weight: 500
         transition-property: all
         transition-duration: 0.4s
         a.nav-link
@@ -105,43 +105,11 @@
     color: $primary-color !important
 #main_menus
     .logo
-        max-width: 200px
+        max-width: 100px
 
     .logo img
         height: auto
         @include image-style
-
-.dropdown:hover .dropdown-menu
-    display: block
-
-.main_header .btn-cart,
-.mobilenav .btn-cart
-    background-color: $primary-color
-    color: $white
-    border-radius: 50%
-    height: 45px
-    width: 45px
-    align-items: center
-    display: inline-grid
-    transition: 0.4s
-    cursor: pointer
-    &:hover
-        background-color: $primary-color
-        color: $white
-
-    .badge-danger
-        color: #fff
-        background-color: $primary-color
-        border-radius: 50%
-        border: 1px solid #fff
-        min-height: 25px
-        min-width: 25px
-        position: absolute
-        right: 5.4%
-        text-align: center
-        top: 19%
-        transition: 0.4s
-        padding: 0.385em 0.65em
 
 .btn-main , .theme-btn
     line-height: 35px
@@ -202,12 +170,11 @@
 
     .carousel-caption
         position: absolute
-        right: 25%
-        top: 40%
-        left: 25%
+        top: 30%
+        left: 0
         padding-top: 1.25rem
         padding-bottom: 1.25rem
-        text-align: center
+        text-align: left
 
     .text-block
         position: absolute
@@ -215,12 +182,10 @@
         h4
             font-size: 50px
             color: #fff
-            font-weight: 400
-            text-align: center
-            margin: 0 0 20px
-            @include oswald-font
-            text-transform: uppercase
-            line-height: 80px
+            font-weight: 600
+            text-align: left
+            margin: 0 0 10px
+            line-height: 70px
             letter-spacing: 1px
 // Index page about section
 .section-title
@@ -229,9 +194,6 @@
     padding-bottom: 35px
     position: relative
     font-size: 40px
-    @include oswald-font
-    font-weight: 700
-    text-transform: uppercase
     letter-spacing: 2px
     &:before
         content: ""
@@ -263,7 +225,7 @@
         margin-left: -10px
         content: "●"
         color: $primary-color
-        background: #fff
+        background: $black
         line-height: 6px
         font-size: 12px
         border-radius: 0
@@ -281,113 +243,77 @@
     line-height: 32px
 .section-desc p
     text-align: justify
-// index page  menu section
-
-.menu-highlights
-    background: #fafafa
-
-    .title-wrapper .title
-        font-weight: bold
-        display: inline-block
+// index page  service section
+.our-services
+    .single-services-item
         position: relative
-        padding-bottom: 20px
-        color: $primary-color
-        font-family: 'Kaushan Script', cursive
-
-.food-navs
-    ul
-        display: flex
-        align-items: center
-        justify-content: center
-        flex-wrap: wrap
-
-        li
-            text-align: center
-            padding: 0 20px
-
-            a
-                background: transparent
-                display: block
-                padding: .5rem 1.5rem
-                color: $menu-color
-                font-size: 1rem
-                transition: .3s
-                border: 2px solid $border-color
-                border-radius: 8px
-                min-width: 170px
-                text-transform: uppercase
-
-            &.active
-                a
-                    background: $primary-color
-                    border: 1px solid $primary-color
-                    color: $white
-
-.menu-items
-    border: 1px solid $color-lighter
-    background: $white
-    a.item-image
+        z-index: 1
         display: block
-        position: relative
-        overflow: hidden
-        &:before
-            content: ""
-            position: absolute
-            left: 20px
-            top: 20px
-            right: 20px
-            bottom: 20px
-            z-index: 2
-            background: rgb(244 67 54 / 72%)
-            opacity: 0
-            transition-property: all
-            transition-duration: 0.3s
-        &:after
-            content: ""
-            position: absolute
-            left: 50%
-            top: 50%
-            background: url('../img/btn_plus.png') no-repeat
-            background-size: cover
-            width: 60px
-            height: 60px
-            margin-top: -30px
-            margin-left: -30px
-            z-index: 2
-            opacity: 0
-            transition-property: all
-            transition-duration: 0.5s
+        padding: 50px 30px
+        text-align: center
+        border-radius: 3px
+        background-color: rgb(70, 58, 255, 0.12)
+        transition: all 500ms ease-out
+        h3
+            font-size: 18px
+            font-weight: 700
+            margin-bottom: 0
+            transition: all 400ms ease-out
+            will-change: transform
+        p
+            font-size: 15px
+            margin-top: 15px
+            margin-bottom: 0
+            transition: all 400ms ease-out
+            will-change: transform
 
-        &:hover
-            &:after, &:before
-                opacity: 1
-            img
-                transform: scale(1.5)
+    .services-images
+        margin-bottom: 20px
         img
-            width: 100%
-            position: relative
-            z-index: 0
-            transition-property: all
-            transition-duration: 3s
-    span
-        display: block
-        font-size: 20px
-        @include oswald-font
-        color: $primary-color
-        margin-bottom: 4px
-        letter-spacing: .5px
+            width: 75px
+// token section
+.token-area
+    .token-image
+        text-align: center
+    .token-content
+        p
+            margin-bottom: 15px !important
+            font-size: 14px
+            color: #fff
+            font-weight: 500
+            line-height: 26px
+            letter-spacing: 0.5px
+        h2
+            font-size: 33px
+            font-weight: 700
+            margin-bottom: 15px
+        .token-list
+            li
+                line-height: 45px
+                font-weight: 500
+            .color-1
+                background: #0fa5fd
+            .color-2
+                background: #865bf3
+            .color-3
+                background: #e65356
+            .color-4
+                background: #e6c253
+            .color-5
+                background: #00f9a7
 
-    h3
-        font-size: 20px
-        font-weight: 400
-        color: $black
-        @include oswald-font
-        letter-spacing: .5px
-        margin: 0
+            span
+                width: 25px
+                height: 25px
+                text-align: center
+                display: inline-block
+                border-radius: 50%
+                margin-right: 10px
+                margin-bottom: -8px
+
 // testimonial of index page
 .testimonial
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/slider3.jpg') center no-repeat fixed
-    background-size: cover
+
     .section-title.sep-type-2:before
         background: $black
 
@@ -458,25 +384,24 @@
         display: none
 // index page newsletter section
 #newsletter
-    background: linear-gradient(rgb(235 10 8 / 95%), rgb(235 10 8 / 87%)), url('../img/popular-bg.jpg') center no-repeat
+    background: linear-gradient(#ff9800, rgb(255 87 34 / 87%))
     // background: $primary-color
     h3
         font-size: 36px
-        @include oswald-font
         letter-spacing: .5px
         margin: 0
         font-weight: 400
     .phone
         display: inline-block
-        color: $black
-        background: #fcf204
+        color: $white
+        background: $background-color
         border-radius: 0px 50px 0px 50px
         margin-bottom: 0
         padding: 8px 25px
         box-shadow: 0 20px 30px 0 rgb(0 0 0 / 15%)
         font-size: 24px
         a
-            color: $black
+            color: $white
             font-size: 26px
 
 // Scroll to top
@@ -523,7 +448,7 @@
     display: none !important
     z-index: 100
     margin-top: 0 !important
-    background: $sticky-nav-bg
+    background: $background-color
     .row
         display: flex
         flex-wrap: nowrap
@@ -550,7 +475,7 @@
     z-index: 1
     top: 0px
     right: 0
-    background-color: $sticky-nav-bg
+    background-color: $background-color
     overflow-x: hidden
     transition: 0.5s
     padding-top: 50px

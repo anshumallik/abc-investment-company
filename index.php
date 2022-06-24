@@ -10,86 +10,127 @@ $pageTitle = "Home";
                 <img src="img/home-bg.png" class="d-block w-100" alt="">
                 <div class="overlay"></div>
                 <div class="carousel-caption d-md-block w-100">
-                    <div class="text-block">
-                        <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom"
-                            class="aos-init aos-animate">
-                            Authentic Nepalese Cuisine <br>From Foothills of the Himalayas!
-                        </h4>
-                        <a href="" class="btn btn-main me-4">Order Online</a>
-                        <a href="" class="btn btn-main">View Menu</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-block">
+                                    <h4 data-aos="fade-up" data-aos-duration="2000"
+                                        data-aos-anchor-placement="bottom-bottom" class="aos-init aos-animate">
+                                        Blockchain Solutions <br>and Cryptocurrency <br>Investments
+                                    </h4>
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod
+                                        <br>
+                                        tempor
+                                        incididunt ut
+                                        labore et dolore magna aliqua.
+                                    </p>
+                                    <a href="" class="btn btn-main me-4 mt-3">Get Started</a>
+
+                                </div>
+                            </div>
+                            <idiv class="col-md-6 my-auto">
+                                <img src="img/home-font.png" alt="" class="img-fluid">
+                            </idiv>
+                        </div>
                     </div>
+
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/slider.jpg" class="d-block w-100" alt="">
+                <img src="img/home-bg.png" class="d-block w-100" alt="">
                 <div class="overlay"></div>
                 <div class="carousel-caption d-md-block w-100">
-                    <div class="text-block">
-                        <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom"
-                            class="aos-init aos-animate">
-                            Authentic Nepalese Cuisine <br>From Foothills of the Himalayas!
-                        </h4>
-                        <a href="" class="btn btn-main me-4">Order Online</a>
-                        <a href="" class="btn btn-main">View Menu</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-block">
+                                    <h4 data-aos="fade-up" data-aos-duration="2000"
+                                        data-aos-anchor-placement="bottom-bottom" class="aos-init aos-animate">
+                                        Blockchain Solutions <br>and Cryptocurrency <br>Investments
+                                    </h4>
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod
+                                        <br>
+                                        tempor
+                                        incididunt ut
+                                        labore et dolore magna aliqua.
+                                    </p>
+                                    <a href="" class="btn btn-main me-4 mt-3">Get Started</a>
+
+                                </div>
+                            </div>
+                            <idiv class="col-md-6 my-auto">
+                                <img src="img/home-font.png" alt="" class="img-fluid">
+                            </idiv>
+                        </div>
                     </div>
+
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/slider5.jpg" class="d-block w-100" alt="">
+                <img src="img/home-bg.png" class="d-block w-100" alt="">
                 <div class="overlay"></div>
                 <div class="carousel-caption d-md-block w-100">
-                    <div class="text-block">
-                        <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom"
-                            class="aos-init aos-animate">
-                            Authentic Nepalese Cuisine <br>From Foothills of the Himalayas!
-                        </h4>
-                        <a href="" class="btn btn-main me-4">Order Online</a>
-                        <a href="" class="btn btn-main">View Menu</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-block">
+                                    <h4 data-aos="fade-up" data-aos-duration="2000"
+                                        data-aos-anchor-placement="bottom-bottom" class="aos-init aos-animate">
+                                        Blockchain Solutions <br>and Cryptocurrency <br>Investments
+                                    </h4>
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod
+                                        <br>
+                                        tempor
+                                        incididunt ut
+                                        labore et dolore magna aliqua.
+                                    </p>
+                                    <a href="" class="btn btn-main me-4 mt-3">Get Started</a>
+
+                                </div>
+                            </div>
+                            <idiv class="col-md-6 my-auto">
+                                <img src="img/home-font.png" alt="" class="img-fluid">
+                            </idiv>
+                        </div>
                     </div>
+
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/slider3.jpg" class="d-block w-100" alt="">
+                <img src="img/home-bg.png" class="d-block w-100" alt="">
                 <div class="overlay"></div>
                 <div class="carousel-caption d-md-block w-100">
-                    <div class="text-block">
-                        <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom"
-                            class="aos-init aos-animate">
-                            Authentic Nepalese Cuisine <br>From Foothills of the Himalayas!
-                        </h4>
-                        <a href="" class="btn btn-main me-4">Order Online</a>
-                        <a href="" class="btn btn-main">View Menu</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-block">
+                                    <h4 data-aos="fade-up" data-aos-duration="2000"
+                                        data-aos-anchor-placement="bottom-bottom" class="aos-init aos-animate">
+                                        Blockchain Solutions <br>and Cryptocurrency <br>Investments
+                                    </h4>
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod
+                                        <br>
+                                        tempor
+                                        incididunt ut
+                                        labore et dolore magna aliqua.
+                                    </p>
+                                    <a href="" class="btn btn-main me-4 mt-3">Get Started</a>
+
+                                </div>
+                            </div>
+                            <idiv class="col-md-6 my-auto">
+                                <img src="img/home-font.png" alt="" class="img-fluid">
+                            </idiv>
+                        </div>
                     </div>
+
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/slider1.jpg" class="d-block w-100" alt="">
-                <div class="overlay"></div>
-                <div class="carousel-caption d-md-block w-100">
-                    <div class="text-block">
-                        <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom"
-                            class="aos-init aos-animate">
-                            Authentic Nepalese Cuisine <br>From Foothills of the Himalayas!
-                        </h4>
-                        <a href="" class="btn btn-main me-4">Order Online</a>
-                        <a href="" class="btn btn-main">View Menu</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/slider2.jpg" class="d-block w-100" alt="">
-                <div class="overlay"></div>
-                <div class="carousel-caption d-md-block w-100">
-                    <div class="text-block">
-                        <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom"
-                            class="aos-init aos-animate">
-                            Authentic Nepalese Cuisine <br>From Foothills of the Himalayas!
-                        </h4>
-                        <a href="" class="btn btn-main me-4">Order Online</a>
-                        <a href="" class="btn btn-main">View Menu</a>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
@@ -106,235 +147,135 @@ $pageTitle = "Home";
 <section class="about pt-50 pb-50">
     <div class="container">
         <div class="row g-5 align-items-center">
-            <div class="col-lg-5 col-md-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="row g-3">
                     <img class="aboutImg img-fluid rounded-radius w-100" src="img/about.png">
 
                 </div>
-                <div class="shape">
-                    <img src="img/shape33.png" alt="">
-                </div>
+
             </div>
-            <div class="col-lg-7 col-md-6">
+            <div class="col-lg-6 col-md-6">
                 <span class="section-suptitle">About Us</span>
-                <h1 class="section-title">Welcome To Nepal House</h1>
+                <h1 class="section-title text-white">Fearless Investments In Over 5 Industries</h1>
                 <div class="section-desc">
-                    <p>Welcome to Nepal House Restaurant – Authentic Nepali, Indian restaurant for Himalayan
-                        cuisine and the best Halal food in the heart of Baltimore. located at 920 N. Charles St, Mount
-                        Vernon, we have been the favorite dining spot of our customer’s in the Baltimore & surrounding
-                        areas
+                    <p>I'm a paragraph. Click here to add your own text and edit me.
+
+                        It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to
+                        the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for
+                        you to tell
+
+                        a story and let your users know a little more about you.
 
                         <br>
-                        To learn more about our Restaurant and the owner, Mr. Prem Raja Mahat, the famous folk singer
-                        from
-                        Nepal, please visit our media section. Also, remember us for Indian catering facility at
-                        Baltimore
-                        <br>
-                        Please visit us for the real taste of Himalayas and you will never forget the authentic taste,
-                        we
-                        promise.
-                        <br>
-                        Thanking you and looking forward to serve you always.
-                        <br>
-                        Prem Raja Mahat and Family!
+                        I'm a paragraph. Click here to add your own text and edit me.
+
+                        It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to
+                        the font.
+
                     </p>
                 </div>
-                <a class="btn btn-main text-dark py-2 px-5 mt-5" href="">Know More <i
-                        class="fa-solid fa-arrow-right ms-3">
+                <a class="btn btn-main  mt-3" href="">Know More <i class="fa-solid fa-arrow-right ms-3">
                     </i></a>
             </div>
         </div>
 </section>
-<section class="menu-highlights pb-4">
-
-    <div class="menu-header pt-5 pb-0">
-        <div class="container">
-            <span class="section-suptitle text-center">Special Menu</span>
-            <h2 class="section-title sep-type-2 text-center">
-                Customer Favourites Menu
-            </h2>
-
-            <div class="food-navs filter pt-4">
-
-                <ul class="list-unstyled mb-0">
-
-                    <li class="active">
-                        <a class="text-capitalize" href="#" data-filter=".breakfast"> Khana Set </a>
-                    </li>
-                    <li>
-                        <a class="text-capitalize" href="#" data-filter=".dessert">Dessert </a>
-                    </li>
-                    <li class="">
-                        <a class="text-capitalize" href="#" data-filter=".dinner">Dinner </a>
-                    </li>
-                    <li>
-                        <a class="text-capitalize" href="#" data-filter=".lunch"> Lunch </a>
-                    </li>
-
-                </ul>
+<section class="our-services pt-50 pb-50">
+    <div class="container">
+        <span class="section-suptitle text-center"> Our Services
+        </span>
+        <h2 class="section-title sep-type-2 text-center text-white">
+            Plan Your Success Now
+        </h2>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-item">
+                    <div class="services-images">
+                        <img src="img/1.svg" alt="services svg icon">
+                    </div>
+                    <h3>Bitcoin Transaction</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-item">
+                    <div class="services-images">
+                        <img src="img/2.svg" alt="services svg icon">
+                    </div>
+                    <h3>Instant Exchange</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-item">
+                    <div class="services-images">
+                        <img src="img/3.svg" alt="services svg icon">
+                    </div>
+                    <h3>Investment Banking</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-item">
+                    <div class="services-images">
+                        <img src="img/4.svg" alt="services svg icon">
+                    </div>
+                    <h3>Safe Browsing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-item">
+                    <div class="services-images">
+                        <img src="img/5.svg" alt="services svg icon">
+                    </div>
+                    <h3>Easy Wallet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-item">
+                    <div class="services-images">
+                        <img src="img/6.svg" alt="services svg icon">
+                    </div>
+                    <h3>Reliable &amp; Low Cost</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container py-5">
-        <div class="row filterdiv">
-            <div class="col-lg-3 col-md-6 py-3 breakfast dessert">
-                <div class="menu-sec">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="menu-items">
-                                <a class="item-image" href="img/1.png" data-fancybox="menu-item">
-                                    <img src="img/1.png" class="img-fluid" alt="">
-                                </a>
-                                <div class="menu-detail p-3">
-                                    <div class="d-flex">
-                                        <a href="">
-                                            <h3>Nepali Momo (Chicken) </h3>
-                                        </a>
-                                        <span class="ms-auto"> $25</span>
-                                    </div>
-                                    <p>Shreded tandoori chicken smothered in tomato. </p>
-                                    <a href="" class="btn btn-main text-dark mt-2" data-bs-toggle="modal"
-                                        data-bs-target="#add_to_cart_Modal">Add to Cart</a>
-                                </div>
-                            </div>
+</section>
+<section class="token-area pt-50 pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span class="section-suptitle text-center"> Distribution
+                </span>
+                <h2 class="section-title sep-type-2 text-center text-white">
+                    Pre-sale &amp; Values
+                </h2>
 
-                        </div>
-
-
-                    </div>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="token-content">
+                    <h2>Distribution of Tokens</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <ul class="token-list">
+                        <li><span class="color-1"></span>03% Gift Code Inventory</li>
+                        <li><span class="color-2"></span>30% Bounty and Overhead</li>
+                        <li><span class="color-3"></span>40% It Infastructure</li>
+                        <li><span class="color-4"></span>50% Legal &amp; Financial</li>
+                        <li><span class="color-5"></span>70% Branding and Merketing</li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 py-3 breakfast dinner">
-                <div class="menu-sec">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="menu-items">
-                                <a class="item-image" href="img/1.png" data-fancybox="menu-item">
-                                    <img src="img/1.png" class="img-fluid" alt="">
-                                </a>
-                                <div class="menu-detail p-3">
-                                    <div class="d-flex">
-                                        <a href="">
-                                            <h3>Nepali Momo (Chicken) </h3>
-                                        </a>
-                                        <span class="ms-auto"> $25</span>
-                                    </div>
-                                    <p>Shreded tandoori chicken smothered in tomato. </p>
-                                    <a href="" class="btn btn-main text-dark mt-2" data-bs-toggle="modal"
-                                        data-bs-target="#add_to_cart_Modal">Add to Cart</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="token-image">
+                    <img src="img/token.png" alt="token image" class="img-fluid">
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 py-3 dessert dinner">
-                <div class="menu-sec">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="menu-items">
-                                <a class="item-image" href="img/2.png" data-fancybox="menu-item">
-                                    <img src="img/2.png" class="img-fluid" alt="">
-                                </a>
-                                <div class="menu-detail p-3">
-                                    <div class="d-flex">
-                                        <a href="">
-                                            <h3>Nepali Momo (Chicken) </h3>
-                                        </a>
-                                        <span class="ms-auto"> $25</span>
-                                    </div>
-                                    <p>Shreded tandoori chicken smothered in tomato. </p>
-                                    <a href="" class="btn btn-main text-dark mt-2" data-bs-toggle="modal"
-                                        data-bs-target="#add_to_cart_Modal">Add to Cart</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 py-3 lunch">
-                <div class="menu-sec">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="menu-items">
-                                <a class="item-image" href="img/4.png" data-fancybox="menu-item">
-                                    <img src="img/4.png" class="img-fluid" alt="">
-                                </a>
-                                <div class="menu-detail p-3">
-                                    <div class="d-flex">
-                                        <a href="">
-                                            <h3>Nepali Momo (Chicken) </h3>
-                                        </a>
-                                        <span class="ms-auto"> $25</span>
-                                    </div>
-                                    <p>Shreded tandoori chicken smothered in tomato. </p>
-                                    <a href="" class="btn btn-main text-dark mt-2" data-bs-toggle="modal"
-                                        data-bs-target="#add_to_cart_Modal">Add to Cart</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 py-3 breakfast lunch">
-                <div class="menu-sec">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="menu-items">
-                                <a class="item-image" href="img/3.png" data-fancybox="menu-item">
-                                    <img src="img/3.png" class="img-fluid" alt="">
-                                </a>
-                                <div class="menu-detail p-3">
-                                    <div class="d-flex">
-                                        <a href="">
-                                            <h3>Nepali Momo (Chicken) </h3>
-                                        </a>
-                                        <span class="ms-auto"> $25</span>
-                                    </div>
-                                    <p>Shreded tandoori chicken smothered in tomato. </p>
-                                    <a href="" class="btn btn-main text-dark mt-2" data-bs-toggle="modal"
-                                        data-bs-target="#add_to_cart_Modal">Add to Cart</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 py-3 lunch dessert breakfast">
-                <div class="menu-sec">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="menu-items">
-                                <a class="item-image" href="img/2.png" data-fancybox="menu-item">
-                                    <img src="img/2.png" class="img-fluid" alt="">
-                                </a>
-                                <div class="menu-detail p-3">
-                                    <div class="d-flex">
-                                        <a href="">
-                                            <h3>Nepali Momo (Chicken) </h3>
-                                        </a>
-                                        <span class="ms-auto"> $25</span>
-                                    </div>
-                                    <p>Shreded tandoori chicken smothered in tomato. </p>
-                                    <a href="" class="btn btn-main text-dark mt-2" data-bs-toggle="modal"
-                                        data-bs-target="#add_to_cart_Modal">Add to Cart</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
@@ -370,7 +311,7 @@ $pageTitle = "Home";
                         </div>
                         <div class="info_client">
                             <div class="profile">
-                                <img src="img/01.jpg" alt="" class="img-fluid">
+                                <img src="img/user.jpg" alt="" class="img-fluid">
                             </div>
 
                         </div>
@@ -397,7 +338,7 @@ $pageTitle = "Home";
                         </div>
                         <div class="info_client">
                             <div class="profile">
-                                <img src="img/01.jpg" alt="" class="img-fluid">
+                                <img src="img/user2.jpg" alt="" class="img-fluid">
                             </div>
 
                         </div>
@@ -424,7 +365,7 @@ $pageTitle = "Home";
                         </div>
                         <div class="info_client">
                             <div class="profile">
-                                <img src="img/01.jpg" alt="" class="img-fluid">
+                                <img src="img/user2.jpg" alt="" class="img-fluid">
                             </div>
 
                         </div>
@@ -451,7 +392,7 @@ $pageTitle = "Home";
                         </div>
                         <div class="info_client">
                             <div class="profile">
-                                <img src="img/01.jpg" alt="" class="img-fluid">
+                                <img src="img/user2.jpg" alt="" class="img-fluid">
                             </div>
 
                         </div>
@@ -478,7 +419,7 @@ $pageTitle = "Home";
                         </div>
                         <div class="info_client">
                             <div class="profile">
-                                <img src="img/01.jpg" alt="" class="img-fluid">
+                                <img src="img/user2.jpg" alt="" class="img-fluid">
                             </div>
 
                         </div>
@@ -494,7 +435,7 @@ $pageTitle = "Home";
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h3 class="text-white">Call for All Your Reservations</h3>
+                    <h3 class="text-white">Trusted platform anytime & anywhere</h3>
                     <p class="text-white pt-3">As well known and we are very busy all days beforeso we can guarantee
                         your
                         seat.</p>
@@ -502,7 +443,8 @@ $pageTitle = "Home";
 
                 <div class="col-sm-4 ms-auto my-auto">
                     <h3 class="phone"><span><i class="fa-solid fa-phone me-2"></i>Call:</span> <a
-                            href="tel:410-547-0001">410-547-0001</a></h3>
+                            href="tel:9808080909">9808080909</a>
+                    </h3>
                 </div>
             </div>
         </div>

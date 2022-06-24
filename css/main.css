@@ -7,6 +7,7 @@
 /***************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@400;700&family=Great+Vibes&family=Heebo&family=Karla:wght@300;400&family=Kaushan+Script&family=Nunito&family=Open+Sans&family=Pacifico&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@400;700&family=Great+Vibes&family=Heebo&family=Karla:wght@300;400&family=Kaushan+Script&family=Nunito&family=Open+Sans&family=Oswald&family=Pacifico&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@400;700&family=Great+Vibes&family=Heebo&family=Karla:wght@300;400&family=Kaushan+Script&family=Lobster&family=Nunito&family=Open+Sans&family=Oswald&family=Pacifico&family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600;1,800&family=Poppins&family=Raleway:wght@500&display=swap");
 /***************************************************************************************************/
 /******************************************* M.I.X.I.N.S *******************************************/
 /***************************************************************************************************/
@@ -23,15 +24,11 @@
 /****************************************** G.E.N.E.R.A.L ******************************************/
 /***************************************************************************************************/
 body {
-  color: #333;
+  color: #fff;
   font-size: 14px;
-  font-family: "Open Sans";
-  background: #fdfdfd;
+  font-family: "Raleway", sans-serif;
+  background: #050416;
   overflow-x: hidden;
-}
-
-.container {
-  max-width: 1200px;
 }
 
 .btn:focus {
@@ -47,7 +44,7 @@ a {
 }
 
 h1, h5, h6 {
-  font-family: "Open Sans";
+  font-family: "Raleway", sans-serif;
   font-weight: 800 !important;
   color: #272727;
 }
@@ -62,7 +59,7 @@ h1, h5, h6 {
 
 p {
   margin-bottom: 0 !important;
-  color: #333;
+  color: #fff;
   line-height: 25px;
 }
 
@@ -140,7 +137,7 @@ ul li {
 .header-down .navbar-nav {
   padding-top: 29px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   transition-property: all;
   transition-duration: 0.4s;
 }
@@ -201,49 +198,12 @@ ul li {
 }
 
 #main_menus .logo {
-  max-width: 200px;
+  max-width: 100px;
 }
 #main_menus .logo img {
   height: auto;
   object-fit: cover;
   width: 100%;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-.main_header .btn-cart,
-.mobilenav .btn-cart {
-  background-color: #ff9b08;
-  color: #fff;
-  border-radius: 50%;
-  height: 45px;
-  width: 45px;
-  align-items: center;
-  display: inline-grid;
-  transition: 0.4s;
-  cursor: pointer;
-}
-.main_header .btn-cart:hover,
-.mobilenav .btn-cart:hover {
-  background-color: #ff9b08;
-  color: #fff;
-}
-.main_header .btn-cart .badge-danger,
-.mobilenav .btn-cart .badge-danger {
-  color: #fff;
-  background-color: #ff9b08;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  min-height: 25px;
-  min-width: 25px;
-  position: absolute;
-  right: 5.4%;
-  text-align: center;
-  top: 19%;
-  transition: 0.4s;
-  padding: 0.385em 0.65em;
 }
 
 .btn-main, .theme-btn {
@@ -256,7 +216,7 @@ ul li {
   background-color: transparent;
   border-color: #ff9b08;
   transition: all 0.3s ease-out;
-  font-family: "Open Sans";
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 0;
@@ -316,12 +276,11 @@ ul li {
 }
 .carousel-inner .carousel-caption {
   position: absolute;
-  right: 25%;
-  top: 40%;
-  left: 25%;
+  top: 30%;
+  left: 0;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  text-align: center;
+  text-align: left;
 }
 .carousel-inner .text-block {
   position: absolute;
@@ -330,12 +289,10 @@ ul li {
 .carousel-inner .text-block h4 {
   font-size: 50px;
   color: #fff;
-  font-weight: 400;
-  text-align: center;
-  margin: 0 0 20px;
-  font-family: "Oswald";
-  text-transform: uppercase;
-  line-height: 80px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 10px;
+  line-height: 70px;
   letter-spacing: 1px;
 }
 
@@ -345,9 +302,6 @@ ul li {
   padding-bottom: 35px;
   position: relative;
   font-size: 40px;
-  font-family: "Oswald";
-  font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 .section-title:before {
@@ -383,7 +337,7 @@ ul li {
   margin-left: -10px;
   content: "●";
   color: #ff9b08;
-  background: #fff;
+  background: #000;
   line-height: 6px;
   font-size: 12px;
   border-radius: 0;
@@ -406,118 +360,82 @@ ul li {
   text-align: justify;
 }
 
-.menu-highlights {
-  background: #fafafa;
-}
-.menu-highlights .title-wrapper .title {
-  font-weight: bold;
-  display: inline-block;
+.our-services .single-services-item {
   position: relative;
-  padding-bottom: 20px;
-  color: #ff9b08;
-  font-family: "Kaushan Script", cursive;
-}
-
-.food-navs ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.food-navs ul li {
+  z-index: 1;
+  display: block;
+  padding: 50px 30px;
   text-align: center;
-  padding: 0 20px;
+  border-radius: 3px;
+  background-color: rgba(70, 58, 255, 0.12);
+  transition: all 500ms ease-out;
 }
-.food-navs ul li a {
-  background: transparent;
-  display: block;
-  padding: 0.5rem 1.5rem;
-  color: #777777;
-  font-size: 1rem;
-  transition: 0.3s;
-  border: 2px solid #d3d3d3;
-  border-radius: 8px;
-  min-width: 170px;
-  text-transform: uppercase;
+.our-services .single-services-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  transition: all 400ms ease-out;
+  will-change: transform;
 }
-.food-navs ul li.active a {
-  background: #ff9b08;
-  border: 1px solid #ff9b08;
+.our-services .single-services-item p {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+.our-services .services-images {
+  margin-bottom: 20px;
+}
+.our-services .services-images img {
+  width: 75px;
+}
+
+.token-area .token-image {
+  text-align: center;
+}
+.token-area .token-content p {
+  margin-bottom: 15px !important;
+  font-size: 14px;
   color: #fff;
-}
-
-.menu-items {
-  border: 1px solid #E8E8E8;
-  background: #fff;
-}
-.menu-items a.item-image {
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-.menu-items a.item-image:before {
-  content: "";
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  z-index: 2;
-  background: rgba(244, 67, 54, 0.72);
-  opacity: 0;
-  transition-property: all;
-  transition-duration: 0.3s;
-}
-.menu-items a.item-image:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background: url("../img/btn_plus.png") no-repeat;
-  background-size: cover;
-  width: 60px;
-  height: 60px;
-  margin-top: -30px;
-  margin-left: -30px;
-  z-index: 2;
-  opacity: 0;
-  transition-property: all;
-  transition-duration: 0.5s;
-}
-.menu-items a.item-image:hover:after, .menu-items a.item-image:hover:before {
-  opacity: 1;
-}
-.menu-items a.item-image:hover img {
-  transform: scale(1.5);
-}
-.menu-items a.item-image img {
-  width: 100%;
-  position: relative;
-  z-index: 0;
-  transition-property: all;
-  transition-duration: 3s;
-}
-.menu-items span {
-  display: block;
-  font-size: 20px;
-  font-family: "Oswald";
-  color: #ff9b08;
-  margin-bottom: 4px;
+  font-weight: 500;
+  line-height: 26px;
   letter-spacing: 0.5px;
 }
-.menu-items h3 {
-  font-size: 20px;
-  font-weight: 400;
-  color: #000;
-  font-family: "Oswald";
-  letter-spacing: 0.5px;
-  margin: 0;
+.token-area .token-content h2 {
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.token-area .token-content .token-list li {
+  line-height: 45px;
+  font-weight: 500;
+}
+.token-area .token-content .token-list .color-1 {
+  background: #0fa5fd;
+}
+.token-area .token-content .token-list .color-2 {
+  background: #865bf3;
+}
+.token-area .token-content .token-list .color-3 {
+  background: #e65356;
+}
+.token-area .token-content .token-list .color-4 {
+  background: #e6c253;
+}
+.token-area .token-content .token-list .color-5 {
+  background: #00f9a7;
+}
+.token-area .token-content .token-list span {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: -8px;
 }
 
-.testimonial {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/slider3.jpg") center no-repeat fixed;
-  background-size: cover;
-}
 .testimonial .section-title.sep-type-2:before {
   background: #000;
 }
@@ -593,19 +511,18 @@ ul li {
 }
 
 #newsletter {
-  background: linear-gradient(rgba(235, 10, 8, 0.95), rgba(235, 10, 8, 0.87)), url("../img/popular-bg.jpg") center no-repeat;
+  background: linear-gradient(#ff9800, rgba(255, 87, 34, 0.87));
 }
 #newsletter h3 {
   font-size: 36px;
-  font-family: "Oswald";
   letter-spacing: 0.5px;
   margin: 0;
   font-weight: 400;
 }
 #newsletter .phone {
   display: inline-block;
-  color: #000;
-  background: #fcf204;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.95) !important;
   border-radius: 0px 50px 0px 50px;
   margin-bottom: 0;
   padding: 8px 25px;
@@ -613,7 +530,7 @@ ul li {
   font-size: 24px;
 }
 #newsletter .phone a {
-  color: #000;
+  color: #fff;
   font-size: 26px;
 }
 
@@ -731,7 +648,7 @@ ul li {
   z-index: 1;
 }
 .banner-section .breadcrumb-data h2 {
-  font-family: "Open Sans";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #111111;
   font-size: 40px;
@@ -1677,11 +1594,11 @@ ul li {
   position: relative;
   z-index: 1;
   padding: 80px 0;
-  background-color: #212121;
+  background-color: rgba(0, 0, 0, 0.95) !important;
   overflow: hidden;
 }
 .footer .flogo {
-  max-width: 260px;
+  max-width: 100px;
 }
 .footer .footer-about {
   margin-right: 50px;
@@ -1695,7 +1612,6 @@ ul li {
   font-size: 22px;
   line-height: 22px;
   color: #fff;
-  font-family: "Oswald";
   position: relative;
   padding-bottom: 30px;
   margin-bottom: 30px;
