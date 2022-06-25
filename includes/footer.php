@@ -8,7 +8,7 @@
 
                 <div class="footer-about pt-4">Welcome to the leading company delivering services that combine quality,
                     reliability and compliance!</div>
-                <ul class="footer-social-links pt-4">
+                <ul class="footer-social-links pt-4 pb-4">
                     <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="" target="_blank"><i class="fab fa-youtube"></i></a></li>

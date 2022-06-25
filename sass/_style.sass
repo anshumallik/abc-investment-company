@@ -44,10 +44,18 @@
         left: 0
         right: 0
         background: $background-color
+        .navbar
+            background: $white
+            a.nav-link
+                color: $black
+                font-weight: 600
+        .btn-main
+            color: $black      
     .navbar
         height: 80px
         background: $nav-bg
-        transition-duration: 0.4s
+        transition-property: all
+        transition-duration: 0.5s
 
     .navbar-nav
         padding-top: 29px
@@ -60,9 +68,11 @@
             padding: 0
             margin-left: 33px
             padding-bottom: 30px
-            transition-duration: 0.3s
+            transition-property: all
+            transition-duration: 0.5s
             position: relative
             overflow: hidden
+            font-weight: 500
             &::after
                 content: ""
                 position: absolute
@@ -156,7 +166,7 @@
 .carousel-control-next, .carousel-control-prev
     width: auto
 .carousel-inner
-    .carousel-item img
+    .carousel-item img.home-bg
         height: 100vh
         min-height: 650px
     .overlay
@@ -271,6 +281,12 @@
         margin-bottom: 20px
         img
             width: 75px
+// counter section
+.count-section
+    .count-number
+        font-size: 72px
+
+// end of counter section
 // token section
 .token-area
     .token-image
@@ -491,7 +507,7 @@
         padding: 10px 20px
         font-size: 20px
         color: $white
-        text-align: left
+        text-align: center
         display: block
         transition: 0.3s
         font-weight: 500
@@ -582,287 +598,3 @@
         font-style: italic
         line-height: 1.6
         margin-bottom: 30px !important
-
-// menu page and order page style
-
-// gallery page css
-
-.gallery
-    position: relative
-    z-index: 1
-    .img-box
-        position: relative
-        display: block
-        overflow: hidden
-        height: 250px
-        border-radius: 10px
-        box-shadow: 0 0 20px rgba(0,0,0,0.1)
-        img
-            transition: .5s
-            @include image-style
-            height: 100%
-        &:hover
-            .overlayer
-                visibility: visible
-                opacity: 1
-            img
-                transform: scale(1.1)
-
-        .overlayer
-            position: absolute
-            top: 0
-            left: 0
-            background: rgba(0,0,0,0.5)
-            height: 100%
-            width: 100%
-            display: flex
-            flex-direction: column
-            justify-content: center
-            transition: .5s
-            visibility: hidden
-            opacity: 0
-
-            i
-                font-size: 2rem
-                color: white
-
-.contact
-    position: relative
-    z-index: 1
-    .box
-        .icon
-            display: grid
-            place-items: center
-            box-shadow: 2px 2px 15px rgba(0,0,0,0.1)
-            border-radius: 50%
-            height: 70px
-            width: 70px
-            margin: auto
-            margin-bottom: 10px
-            font-size: 1.3rem
-            color: $primary-color
-
-.contact-map
-    position: relative
-    z-index: 1
-    form
-        input
-            height: 50px
-            border-radius: 0 !important
-
-.reservation
-    position: relative
-    z-index: 1
-    .table_number
-        background: white
-    @media #{$large-and-down}
-        .form-box
-            max-width: 600px
-            margin: auto
-    h2
-        @media #{$large-and-down}
-            text-align: center
-
-    .text
-        h5
-            font-size: 1.8rem
-            font-weight: 600
-    h3
-        font-size: 1.75rem
-        color: $primary-color
-    p
-        font-weight: 500
-    .icon-box
-        padding-top: 5px
-        i
-            color: $primary-color
-
-    .form-box
-        max-width: 700px
-        margin: auto
-        input
-            height: 42px
-.contact-map, .reservation
-    .ui.form .field>label
-        font-weight: 500 !important
-.title-wrapper .title p
-    text-transform: capitalize
-    font-size: 2rem
-.order-now-page
-    position: relative
-    z-index: 1
-
-// User Dashboard section
-.user-dashboard
-    .bg-danger
-        background-color: $primary-color !important
-    .wrapper
-        display: flex
-        @media #{$medium-and-down}
-            display: block
-            .left-sidebar
-                position: fixed
-                width: 100%
-                height: unset !important
-                bottom: 0
-                left: 0
-                z-index: 10
-                .nav-tabs
-                    display: flex !important
-                    .nav-link
-                        flex: 0 0 16.66%
-                        text-align: center
-                        i
-                            font-size: 1.3rem
-                        .nav-text
-                            display: none
-        .left-sidebar
-            flex: 0 0 220px
-            background: #635f56
-            .nav-tabs
-                display: block
-                border-bottom: none
-                .nav-link
-                    border: none
-                    border-radius: 0
-                    padding: 10px
-                    color: white
-                    i
-                        min-width: 20px
-                        text-align: center
-                    &.active, &:hover
-                        background: $primary-color
-                        color: white
-        .right-content
-            width: 100%
-            overflow: auto
-            @media #{$medium-and-down}
-                height: calc(100% - 45px)
-            .bread
-                background: $color-lighter
-                padding: 10px
-                font-weight: bold
-            #nav-myorder
-                .myorder-inner
-                    .table
-                        th
-                            text-transform: capitalize
-                            white-space: nowrap
-                            &.description
-                                width: 35%
-                                min-width: 200px
-                            &.price
-                                width: 15%
-                            &.order-date
-                                width: 20%
-                            &.order-type
-                                width: 15%
-                        .action-btn
-                            white-space: nowrap
-                        .order-id
-                            font-weight: bold
-
-            .table
-                th
-                    text-transform: capitalize
-                    white-space: nowrap
-                    font-weight: 500 !important
-            .table-footer
-                @media #{$small-only}
-                    flex-wrap: wrap
-                    & > div
-                        margin-left: auto
-
-            .profile-inner, .address-inner
-                .form
-                    max-width: 800px
-                    border: 1px solid $color-lighter
-                    padding: 20px
-            .form-group
-                input
-                    background: #f8f8f8
-                label
-                    text-transform: capitalize
-                .nice-select
-                    margin-bottom: 15px
-.header-height
-    min-height: 99px
-    @media #{$small-only}
-        min-height: 60px
-.user-dashboard
-    height: calc(100vh - 99px)
-    .wrapper
-        .left-sidebar.h-100
-            background: #1b2026
-.status
-    width: 100%
-    display: block
-    text-align: center
-    border-radius: 4px
-    padding: 0 12px
-    font-weight: 500
-    font-size: .9rem !important
-    max-width: 100px
-    margin: auto
-
-    &.status-pending
-        color: #ffb64d
-        background: #fff5e6
-
-    &.status-declined
-        color: #ff536f
-        background: #ffecef
-
-    &.status-delivered
-        color: #2ed7b6
-        background: #d9f8f2
-.pagination
-    .page-link
-        color: $primary-color
-        padding: .5rem .9rem
-        outline: none
-        box-shadow: none
-        &:hover
-            background: $primary-color
-            color: white
-            border: 1px solid transparent
-        &.current
-            background: $color-orange
-            color: white
-            border: 1px solid $color-orange
-.giftcard-inner
-    .filter
-        input
-            max-width: 300px
-        .select
-            max-width: 200px
-        button
-            padding: 5px 15px !important
-            &.reset-input-btn
-                background: darken($primary-color, 5%)
-                min-width: unset
-        @media #{$small-only}
-            flex-wrap: wrap
-            input
-                flex: 0 0 100%
-                max-width: unset
-                border-radius: 0 !important
-                margin: 0 !important
-            .select
-                height: 42px
-                border: 1px solid $color-lighter
-                background: white
-                max-width: unset !important
-                padding: 0 8px
-                margin-bottom: 10px
-                color: rgba(0,0,0,0.4)
-                outline: none
-            button
-                margin-top: 15px
-
-    .pending-text
-        color: black
-    .redeem-text
-        color: #dd3722
-    .expired-text
-        opacity: .5

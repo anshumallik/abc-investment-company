@@ -7,30 +7,32 @@ $pageTitle = "Home";
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/home-bg.png" class="d-block w-100" alt="">
+                <img src="img/home-bg.png" class="d-block w-100 home-bg" alt="">
                 <div class="overlay"></div>
                 <div class="carousel-caption d-md-block w-100">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-8">
                                 <div class="text-block">
-                                    <h4 data-aos="fade-up" data-aos-duration="2000"
-                                        data-aos-anchor-placement="bottom-bottom" class="aos-init aos-animate">
+                                    <h4 data-aos="fade-up" data-aos-duration="2000">
                                         Blockchain Solutions <br>and Cryptocurrency <br>Investments
                                     </h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    <p class="text-white" data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit, sed
                                         do eiusmod
                                         <br>
                                         tempor
                                         incididunt ut
                                         labore et dolore magna aliqua.
                                     </p>
-                                    <a href="" class="btn btn-main me-4 mt-3">Get Started</a>
+                                    <a href="" data-aos="fade-up" data-aos-duration="2000"
+                                        class="btn btn-main me-4 mt-3">Get Started</a>
 
                                 </div>
                             </div>
-                            <idiv class="col-md-6 my-auto">
-                                <img src="img/home-font.png" alt="" class="img-fluid">
+                            <idiv class="col-lg-6 col-md-4 my-auto">
+                                <img src="img/home-font.png" data-aos="fade-left" data-aos-duration="2000" alt=""
+                                    class="img-fluid img-media">
                             </idiv>
                         </div>
                     </div>
@@ -38,30 +40,31 @@ $pageTitle = "Home";
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/home-bg.png" class="d-block w-100" alt="">
+                <img src="img/home-bg.png" class="d-block w-100 home-bg" alt="">
                 <div class="overlay"></div>
                 <div class="carousel-caption d-md-block w-100">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-8">
                                 <div class="text-block">
-                                    <h4 data-aos="fade-up" data-aos-duration="2000"
-                                        data-aos-anchor-placement="bottom-bottom" class="aos-init aos-animate">
+                                    <h4 data-aos="fade-up" data-aos-duration="2000">
                                         Blockchain Solutions <br>and Cryptocurrency <br>Investments
                                     </h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    <p class="text-white" data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit, sed
                                         do eiusmod
                                         <br>
                                         tempor
                                         incididunt ut
                                         labore et dolore magna aliqua.
                                     </p>
-                                    <a href="" class="btn btn-main me-4 mt-3">Get Started</a>
-
+                                    <a href="" data-aos="fade-up" data-aos-duration="2000"
+                                        class="btn btn-main me-4 mt-3">Get Started</a>
                                 </div>
                             </div>
-                            <idiv class="col-md-6 my-auto">
-                                <img src="img/home-font.png" alt="" class="img-fluid">
+                            <idiv class="col-lg-6 col-md-4 my-auto">
+                                <img src="img/home-font.png" data-aos="fade-left" data-aos-duration="2000" alt=""
+                                    class="img-fluid img-media">
                             </idiv>
                         </div>
                     </div>
@@ -69,30 +72,31 @@ $pageTitle = "Home";
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/home-bg.png" class="d-block w-100" alt="">
+                <img src="img/home-bg.png" class="d-block w-100 home-bg" alt="">
                 <div class="overlay"></div>
                 <div class="carousel-caption d-md-block w-100">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-8">
                                 <div class="text-block">
-                                    <h4 data-aos="fade-up" data-aos-duration="2000"
-                                        data-aos-anchor-placement="bottom-bottom" class="aos-init aos-animate">
+                                    <h4 data-aos="fade-up" data-aos-duration="2000">
                                         Blockchain Solutions <br>and Cryptocurrency <br>Investments
                                     </h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    <p class="text-white" data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit, sed
                                         do eiusmod
                                         <br>
                                         tempor
                                         incididunt ut
                                         labore et dolore magna aliqua.
                                     </p>
-                                    <a href="" class="btn btn-main me-4 mt-3">Get Started</a>
-
+                                    <a href="" data-aos="fade-up" data-aos-duration="2000"
+                                        class="btn btn-main me-4 mt-3">Get Started</a>
                                 </div>
                             </div>
-                            <idiv class="col-md-6 my-auto">
-                                <img src="img/home-font.png" alt="" class="img-fluid">
+                            <idiv class="col-lg-6 col-md-4 my-auto">
+                                <img src="img/home-font.png" data-aos="fade-left" data-aos-duration="2000" alt=""
+                                    class="img-fluid img-media">
                             </idiv>
                         </div>
                     </div>
@@ -100,30 +104,31 @@ $pageTitle = "Home";
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/home-bg.png" class="d-block w-100" alt="">
+                <img src="img/home-bg.png" class="d-block w-100 home-bg" alt="">
                 <div class="overlay"></div>
                 <div class="carousel-caption d-md-block w-100">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-8">
                                 <div class="text-block">
-                                    <h4 data-aos="fade-up" data-aos-duration="2000"
-                                        data-aos-anchor-placement="bottom-bottom" class="aos-init aos-animate">
+                                    <h4 data-aos="fade-up" data-aos-duration="2000">
                                         Blockchain Solutions <br>and Cryptocurrency <br>Investments
                                     </h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    <p class="text-white" data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit, sed
                                         do eiusmod
                                         <br>
                                         tempor
                                         incididunt ut
                                         labore et dolore magna aliqua.
                                     </p>
-                                    <a href="" class="btn btn-main me-4 mt-3">Get Started</a>
-
+                                    <a href="" data-aos="fade-up" data-aos-duration="2000"
+                                        class="btn btn-main me-4 mt-3">Get Started</a>
                                 </div>
                             </div>
-                            <idiv class="col-md-6 my-auto">
-                                <img src="img/home-font.png" alt="" class="img-fluid">
+                            <idiv class="col-lg-6 col-md-4 my-auto">
+                                <img src="img/home-font.png" data-aos="fade-left" data-aos-duration="2000" alt=""
+                                    class="img-fluid img-media">
                             </idiv>
                         </div>
                     </div>
@@ -147,14 +152,14 @@ $pageTitle = "Home";
 <section class="about pt-50 pb-50">
     <div class="container">
         <div class="row g-5 align-items-center">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-6 order-lg-1 order-last">
                 <div class="row g-3">
                     <img class="aboutImg img-fluid rounded-radius w-100" src="img/about.png">
 
                 </div>
 
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-6 order-lg-2 order-first">
                 <span class="section-suptitle">About Us</span>
                 <h1 class="section-title text-white">Fearless Investments In Over 5 Industries</h1>
                 <div class="section-desc">
@@ -187,7 +192,7 @@ $pageTitle = "Home";
             Plan Your Success Now
         </h2>
         <div class="row g-4">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 ser-1">
                 <div class="single-services-item">
                     <div class="services-images">
                         <img src="img/1.svg" alt="services svg icon">
@@ -196,7 +201,7 @@ $pageTitle = "Home";
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 ser-1">
                 <div class="single-services-item">
                     <div class="services-images">
                         <img src="img/2.svg" alt="services svg icon">
@@ -205,7 +210,7 @@ $pageTitle = "Home";
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 ser-1">
                 <div class="single-services-item">
                     <div class="services-images">
                         <img src="img/3.svg" alt="services svg icon">
@@ -214,7 +219,7 @@ $pageTitle = "Home";
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 ser-1">
                 <div class="single-services-item">
                     <div class="services-images">
                         <img src="img/4.svg" alt="services svg icon">
@@ -223,7 +228,7 @@ $pageTitle = "Home";
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 ser-1">
                 <div class="single-services-item">
                     <div class="services-images">
                         <img src="img/5.svg" alt="services svg icon">
@@ -232,7 +237,7 @@ $pageTitle = "Home";
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 ser-1">
                 <div class="single-services-item">
                     <div class="services-images">
                         <img src="img/6.svg" alt="services svg icon">
@@ -276,6 +281,37 @@ $pageTitle = "Home";
                     <img src="img/token.png" alt="token image" class="img-fluid">
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section class="count-section pt-5 pb-5">
+    <div class="container">
+        <div class="row pt-5 pb-5 mr-0 ml-0 g-5">
+            <div class="col-md-3">
+                <div class="count_detail text-center">
+                    <h3 class="timer pt-4 pb-2 count-number text-white" data-to="100" data-speed="1500"></h3>
+                    <h5 class="text-white">Invested On Crypto</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="count_detail text-center">
+                    <h3 class="timer pt-4 pb-2 count-number text-white" data-to="500" data-speed="1500"></h3>
+                    <h5 class="text-white"> Expert Team</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="count_detail text-center">
+                    <h3 class="timer pt-4 pb-2 count-number text-white" data-to="25" data-speed="1500"></h3>
+                    <h5 class="text-white">Years of Experience</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="count_detail text-center">
+                    <h3 class="timer pt-4 pb-2 count-number text-white" data-to="150" data-speed="1500"></h3>
+                    <h5 class="text-white">Sign In</h5>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
