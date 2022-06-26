@@ -102,6 +102,11 @@ ul li {
 .nav-top ul li a:hover {
   color: #ff9b08;
 }
+@media only screen and (max-width : 576px) {
+  .nav-top {
+    display: none !important;
+  }
+}
 .nav-top ul li.social-bloc {
   float: right;
   margin-right: 0;
@@ -196,6 +201,11 @@ ul li {
   width: 100%;
   right: 0;
   opacity: 1;
+}
+@media only screen and (max-width : 576px) {
+  .header-down {
+    display: none !important;
+  }
 }
 
 .main_header {
@@ -550,6 +560,18 @@ ul li {
   color: #fff;
   font-size: 26px;
 }
+@media only screen and (max-width : 576px) {
+  #newsletter {
+    text-align: center;
+  }
+  #newsletter .phone {
+    font-size: 16px !important;
+    margin-top: 30px;
+  }
+  #newsletter .phone a {
+    font-size: 16px;
+  }
+}
 
 #button {
   display: inline-block;
@@ -644,109 +666,8 @@ ul li {
 }
 
 /* mobile nav */
-.sticky-cart-content ::-webkit-scrollbar, .modal-scrollable ::-webkit-scrollbar, .single_sidebar_widget ::-webkit-scrollbar {
-  width: 5px;
-}
-.sticky-cart-content ::-webkit-scrollbar-track, .modal-scrollable ::-webkit-scrollbar-track, .single_sidebar_widget ::-webkit-scrollbar-track {
-  background: #f0e9ff;
-}
-.sticky-cart-content ::-webkit-scrollbar-thumb, .modal-scrollable ::-webkit-scrollbar-thumb, .single_sidebar_widget ::-webkit-scrollbar-thumb {
-  background: #ccc;
-}
-
-/* banner section style */
-.banner-section {
-  background: url("../img/banner.png") no-repeat scroll center bottom/cover;
-  display: flex;
-  min-height: 400px;
-  padding-top: 180px;
-  position: relative;
-  text-align: center;
-  z-index: 1;
-}
-.banner-section .breadcrumb-data h2 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  color: #111111;
-  font-size: 40px;
-}
-.banner-section .breadcrumb-item + .breadcrumb-item::before {
-  color: #9e9586;
-  padding: 0 20px;
-  font-weight: 700;
-}
-.banner-section .breadcrumb-item {
-  font-size: 18px;
-}
-.banner-section .breadcrumb-item a {
-  text-transform: uppercase;
-  color: #9e9586;
-}
-.banner-section .breadcrumb-item a:hover {
-  color: #ff9b08;
-}
-.banner-section .breadcrumb-item + .breadcrumb-item {
-  padding-left: 0;
-}
-
-/* banner section style */
-.item-icon {
-  margin-bottom: -40px;
-}
-.item-icon i {
-  font-size: 60px;
-  color: #eaeaea;
-}
-
-.test-about .owl-theme .owl-nav [class*=owl-] {
-  color: #fff;
-  font-size: 29px;
-  background: #ff9b08;
-  border-radius: 50%;
-  transition: all 240ms ease-in-out;
-  padding: 2px 2px 4px;
-  display: none;
-}
-.test-about .owl-carousel .owl-dots {
-  display: none;
-}
-.test-about .owl-carousel .owl-prev {
-  left: -130px;
-}
-.test-about .owl-carousel .owl-next {
-  right: -130px;
-}
-.test-about .owl-carousel .nav-button {
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  position: absolute;
-  top: 50% !important;
-}
-.test-about:hover .owl-theme .owl-nav [class*=owl-] {
-  display: block;
-}
-.test-about .profile-desc p {
-  font-size: 24px;
-  font-style: italic;
-  line-height: 1.6;
-  margin-bottom: 30px !important;
-}
-
 /*********************************************************************************************************************************/
 /*********************************************************** S.T.Y.L.E ***********************************************************/
-/*********************************************************************************************************************************/
-/*********************************************************************************************************************************/
-/*********************************************************** G.E.N.E.R.A.L ***********************************************************/
-/*********************************************************************************************************************************/
-/*********************************************************************************************************************************/
-/*********************************************************** G.E.N.E.R.A.L***********************************************************/
-/*********************************************************************************************************************************/
-/*********************************************************************************************************************************/
-/*********************************************************** G.E.N.E.R.A.L R.O ***********************************************************/
-/*********************************************************************************************************************************/
-/*********************************************************************************************************************************/
-/*********************************************************** G.E.N.E.R.A.L R.O ***********************************************************/
 /*********************************************************************************************************************************/
 @media (max-width: 1024px) {
   .mobile_btn .sidenav .btn-main, .mobile_btn .sidenav .theme-btn {
@@ -828,10 +749,6 @@ ul li {
     font-size: 16px;
   }
 
-  .indexpage .carousel-inner {
-    padding-top: 0;
-  }
-
   .main_header .btn-cart .badge-danger, .mobilenav .btn-cart .badge-danger {
     right: 8%;
     top: 1%;
@@ -870,10 +787,6 @@ ul li {
     font-size: 16px;
   }
 
-  .indexpage .carousel-inner {
-    padding-top: 0;
-  }
-
   .main_header .btn-cart .badge-danger, .mobilenav .btn-cart .badge-danger {
     right: 8%;
     top: 1%;
@@ -903,33 +816,6 @@ ul li {
   }
   .carousel-inner .carousel-caption .img-media {
     display: none;
-  }
-
-  .nav-top {
-    display: none;
-  }
-
-  #newsletter {
-    text-align: center;
-  }
-  #newsletter .phone {
-    font-size: 16px !important;
-    margin-top: 30px;
-  }
-  #newsletter .phone a {
-    font-size: 16px;
-  }
-
-  .indexpage .carousel-inner {
-    padding-top: 0;
-  }
-
-  .section-gap {
-    padding: 40px 0;
-  }
-
-  .header-down {
-    display: none !important;
   }
 
   .mobilenav {
@@ -975,6 +861,12 @@ ul li {
     left: 13%;
   }
 }
+/*********************************************************************************************************************************/
+/*********************************************************** M.E.D.I.A ***********************************************************/
+/*********************************************************************************************************************************/
+/*********************************************************************************************************************************/
+/*********************************************************** F.O.O.T.E.R***********************************************************/
+/*********************************************************************************************************************************/
 .footer {
   position: relative;
   z-index: 1;
@@ -1147,4 +1039,7 @@ footer a:hover, footer a:active, footer a:focus {
     padding-bottom: 0px;
     margin-bottom: 10px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*********************************************************************************************************************************/
+/*********************************************************** F.O.O.T.E.R***********************************************************/
+/*********************************************************************************************************************************//*# sourceMappingURL=main.css.map */
