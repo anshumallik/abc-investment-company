@@ -45,10 +45,6 @@ btn.on('click', function (e) {
 AOS.init();
 
 
-// tooltip
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip({ delay: { "show": 500, "hide": 100 } })
-});
 
 
 
@@ -91,22 +87,17 @@ function closeNav() {
 
 
 
-// page loader
+// Preloader before loading of page
 
-
-$(window).on('load', function () {
-    setTimeout(removeLoader, 2000);
-    $('.data').hide();
-
-});
-
-function removeLoader() {
-    $(".preloader").fadeOut(500, function () {
-        $('.data').show();
-        $(".preloader").remove();
-
-    });
+function handlePreloader() {
+    if ($('.preloader').length) {
+        $('.preloader').delay(200).fadeOut(300);
+    }
 }
+$(window).on('load', function () {
+    handlePreloader();
+});
+// end of preloader
 
 
 jQuery(function ($) {
